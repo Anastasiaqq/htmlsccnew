@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.name{
+    max-width: 1280px;
+    background-color: #445161;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    margin: 0 auto;
+}
+.nameheader{
+    text-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.namelist{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.nameitem{
+    background-image: url(imgs/check_icon.png);
+    background-position: left;
+}
+.nameimg{
+    max-width: 469px;
+    max-height: 214px;
+}
+.sorry{
+    max-width: 469px;
+}
+.about{
+    max-width: 1280px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    margin: 0 auto;
+}
+.head{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.aboutheader{
+    padding-top: 0;
+}
+.abouttext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+.aboutimg{
+    max-width: 430px;
+    height: 245px;
+}
+.dignity{
+    max-width: 1280px;
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin: 0 auto;
+}
+.dignityheader{
+    text-align: center;
+    margin-top: 0;
+}
+.dignitycontainer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.dignityitem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    width: 42%;
+}
+.dignitypic{
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+}
+.dignitytext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+.screenshots{
+    max-width: 1280px;
+    background-color: #fff;
+    padding: 50px;
+    margin: 0 auto;
+}
+.screenshotsheader{
+    text-align: center;
+    margin-top: 0;
+}
+.screenshotscontainer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.screenshotsitem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    width: 42%;
+}
+.screenshotsimg{
+    margin-right: 16px;
+}
+.headermini{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.screenshotstext{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+.reviews{
+    background-color: #f5f5f5;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.reviewsheader{
+    text-align: center;
+    margin-top: 0;
+}
+.reviewscontainer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.reviewsimg{
+    width: 75px;
+    height: 75px;
+    margin-right: 16px;
+}
+.reviewsitem{
+    display: flex;
+    width: 40%;
+}
+.reviewsall{
+    background-color: #ebebeb;
+    padding: 16px;
+   
+}
+.reviewstext{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 16px;
+}
+.reviewsauthor{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #989898;
+}
+.buyit{
+    background-color: #fff;
+    max-width: 1280px;
+    padding: 50px 150px;
+    margin: 0 auto;
+}
+.buyitheader{
+    text-align: center;
+    margin-top: 0;
+}
+.buyitcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.buyititem{
+    background-color: #445162;
+    border: 2px solid #445162;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 30%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.buyitgood{
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.buyitprice{
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin: 0;
+}
+.buyitlist{  
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.buyitbutton{
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    height: 40px;
+    max-width: 260px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: none;
+}
+.contacts{
+    padding: 50px 240px;
+    background-color: #445162;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.contactsheader{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+.contactscontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+.contactsform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactsinput{
+    font-family: Arial;
+    margin-bottom: 24px;
+    width: 450px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    padding: 8px;
+    border: 1px solid transparent;
+}
+.contactsinput:focus{
+    background-color: #eee;
+}
+.contactsinput:hover{
+    background-color: #eee;
+}
+.inputtext{
+    height: 170px;
+}
+.contactsinput::placeholder{
+    font-family: Arial;
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+}
+.contactsbutton{
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #445162;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.contactsitem{
+    margin-bottom: 32px;
+    display: flex;
+}
+.contactsimg{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+.contactsadress{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.linkscontainer{
+    margin-left: 40px;
+}
+.contactslink{
+    max-height: 42px;
+    max-width: 42px;
+   
+}
+.foot{
+    background-color: #f5f5f5;
+    max-width: 1280p;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footertext{
+    text-align: center;
+    color: #445162;
+}
